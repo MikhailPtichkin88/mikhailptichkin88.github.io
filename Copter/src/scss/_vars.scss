@@ -1,0 +1,39 @@
+@keyframes spin {
+    from {
+        transform: rotate(0turn)
+        translateY(-150px) translateY(50%)
+        rotate(1turn);
+    }
+    to {
+        transform: rotate(1turn)
+        translateY(-150px) translateY(50%)
+        rotate(0turn);
+    }
+}
+       
+@keyframes small-spin {
+    from {
+        transform: translateY(10px) translateY(-10%)
+        rotate(0turn)
+        translateY(-10px) translateY(20%)
+        rotate(1turn);
+    }
+    to {
+        transform: translateY(10px) translateY(-10%)
+        rotate(1turn)
+        translateY(-10px) translateY(20%)
+        rotate(0turn);
+    }
+}
+
+@keyframes up {
+    from {
+        transform: translateY(0px);     
+    }
+    50% {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0px); 
+    }
+}
